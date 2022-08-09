@@ -3,9 +3,6 @@ layout: page
 title: Project Battle
 permalink: portfolio/PJBattle/
 ---
-
-# Project Battle
-
 Liquorice marzipan candy canes powder donut. Jelly beans tart soufflé powder dessert cake gummi bears jelly-o marzipan. Jelly chocolate cake dessert sugar plum chocolate cheesecake jelly beans cotton candy. Donut icing tootsie roll marshmallow toffee pastry lemon drops croissant jujubes. Brownie soufflé caramels marzipan cake jelly croissant danish jelly. Powder cheesecake cotton candy ice cream dragée chocolate cake chocolate cake lemon drops donut. Dessert gummies bear claw oat cake cheesecake marzipan macaroon bear claw topping. Marzipan chocolate cake sweet chocolate cotton candy fruitcake dragée chocolate cake.
 Powder topping oat cake pudding cotton candy macaroon. Sweet biscuit tart liquorice shortbread caramels apple pie chocolate cake shortbread. Topping sweet cotton candy marshmallow sugar plum. Sugar plum gummies liquorice tart ice cream. Sweet roll candy canes chocolate sweet roll tootsie roll sweet gummi bears. Macaroon sugar plum sweet roll bear claw oat cake marshmallow caramels pastry apple pie. Sesame snaps ice cream pastry marzipan muffin. Gummies dragée lollipop muffin jelly beans pie candy canes fruitcake.
 Caramels fruitcake macaroon bonbon sweet roll apple pie liquorice caramels. Gingerbread tart danish biscuit donut cookie croissant. Pie powder cake pastry sweet roll bear claw. Gummies fruitcake topping tart pastry. Donut tiramisu cheesecake tootsie roll candy canes. Muffin macaroon cake topping candy biscuit dessert tiramisu donut. Candy cheesecake cake jelly beans bonbon apple pie muffin caramels. Bonbon apple pie biscuit liquorice jujubes pudding cotton candy bear claw. Caramels topping sesame snaps cotton candy wafer liquorice jujubes pastry.
