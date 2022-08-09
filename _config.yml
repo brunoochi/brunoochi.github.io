@@ -9,7 +9,7 @@ name: Bruno Ochi
 author: Bruno Ochi
 
 # Short bio or description (displayed in the header)
-description: Data Analytics @ Big 4 Consulting Firm
+description: Data Analytics @Consulting Firm
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/profilegreen.png
@@ -21,15 +21,15 @@ avatar: /images/profilegreen.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email:
   facebook:
   flickr:
-  github: amitmerchant1990/reverie
+  github: github.com/brunoochi
   instagram:
-  linkedin: 
+  linkedin: linkedin.com/in/brunoochi
   pinterest:
   rss: rss
-  twitter: amit_merchant
+  twitter: ochington
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
