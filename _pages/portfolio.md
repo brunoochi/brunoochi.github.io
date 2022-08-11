@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-| Project Name | Description | Link |
+| Project | Description | Link |
 | --- | --- | --- |
 | Project Battle | This project uses basic NLP (natural language processing) techniques to analyze customer reviews of 4 well known first-person shooting games: Battlefield 5, Battlefield 1, Call of Duty Black Ops 4, and Call of Duty Inifinite Warfare. | Project |
 | Project Matcha | I test pdfplumber - a Python library that extracts data from PDF - to get the number of applications and the number of test takers of the Japanese Language Proficiency Test. | Project |
