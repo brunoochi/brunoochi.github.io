@@ -10,7 +10,7 @@ My main tools of work are Python, Tableau and Alteryx, but I am also comfortable
 
 - Process and visualize contract data for a lease company
 - Build financial dashboard for an eldercare provider
-- Analyze drivers of revenue and recommend optimal candidates for store network expansion
-- Aside from client work, I also work as an internal data evangelist. I lead training sessions and spread basic data skills to new hires.
+- Analyze drivers of revenue and recommend candidate areas for store network expansion
+- Aside from client work, I also lead training sessions and spread basic data skills to new hires.
 
 I was born and raised in Sao Paulo, Brazil and I currently live in Tokyo, Japan. I am proficient in Portuguese, English and Japanese. Check my [resume](#) for details.
