@@ -4,6 +4,8 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+These are some side projects I have been working on for my learning and development. I enjoy playing around with datasets, libraries, and tools to learn new things and stay sharp for the next challenge.
+
 | Project | Description | Link |
 | --- | --- | --- |
 | Project Battle | This project uses basic NLP (natural language processing) techniques to analyze customer reviews of 4 well known first-person shooting games: Battlefield 5, Battlefield 1, Call of Duty Black Ops 4, and Call of Duty Inifinite Warfare. | Project |
