@@ -13,7 +13,4 @@ My main tools of work are Python, Tableau and Alteryx, but I am also comfortable
 - Analyze drivers of revenue and recommend optimal candidates for store network expansion
 - Aside from client work, I also work as an internal data evangelist. I lead training sessions and spread basic data skills to new hires.
 
-I was born and raised in Sao Paulo, Brazil and I currently live in Tokyo, Japan. I am proficient in Portuguese, English and Japanese.
-
-## Features
-Check my [resume](#) for details
+I was born and raised in Sao Paulo, Brazil and I currently live in Tokyo, Japan. I am proficient in Portuguese, English and Japanese. Check my [resume](#) for details.
