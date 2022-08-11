@@ -8,7 +8,7 @@ These are some side projects I have been working on for my learning and developm
 
 | Project | Description | Link |
 | --- | --- | --- |
-| Project Battle | This project uses basic NLP (natural language processing) techniques to analyze customer reviews of 4 well known first-person shooting games: Battlefield 5, Battlefield 1, Call of Duty Black Ops 4, and Call of Duty Inifinite Warfare. | Project |
+| Project Battle | This project uses basic NLP techniques to analyze customer reviews of 4 well known first-person shooting games: Battlefield 5, Battlefield 1, Call of Duty Black Ops 4, and Call of Duty Inifinite Warfare. | Project |
 | Project Matcha | I test pdfplumber - a Python library that extracts data from PDF - to get the number of applications and the number of test takers of the Japanese Language Proficiency Test. | Project |
 | Project Flat | I created a map of Tokyo containing average rent prices broken down by district. This work was done over a weekend for hobby and learning. | Project |
 | Project Car | This project was a refresher of basic machine learning algoritms. I predict used car prices using Decision Tree, Random Forest, and Linear Regression using a dataset shared by a user in Kaggle. | Project |
