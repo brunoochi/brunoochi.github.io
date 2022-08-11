@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a data analytics professional working in the consulting industry. Companies are usually sitting on top of valuable unexplored data and my mission is to help them discover value and make good business decisions. I have helped major market players from a variety of industries in Japan - automobile, apparel, eldercare, construction, and so forth.
+I am a data analytics professional working in the consulting industry. Companies are usually sitting on top of valuable unexplored data and my mission is to help them discover value and make good business decisions. I have worked with major market players from the automobile, apparel, eldercare, and construction industries in Japan.
 
 My main tools of work are Python, Tableau and Alteryx, but I am also comfortable with Power BI, QGIS, and SQL scripting. Here's a list of recent projects I have been active on:
 
