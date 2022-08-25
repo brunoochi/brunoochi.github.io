@@ -68,5 +68,5 @@ These results don't look bad at all. But if you screen over the other reviews yo
 This project used basic NLP techniques to analyze customer reviews of two major FPS game franchises - Battlefield and Call of Duty. NLP is not a field of expertise that I am very familiar with, so this project was quite challenging (and rewarding).
 
 ## 5. Links
-Used this link as reference to build the co-occurrence network: Simple Co-occurrence Network
-Check the ipynb notebook here
+- Used this link as reference to build the co-occurrence network: Simple Co-occurrence Network
+- Check the ipynb notebook here
