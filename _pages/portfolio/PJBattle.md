@@ -3,19 +3,18 @@ layout: page
 title: Project Battle
 permalink: portfolio/PJBattle/
 ---
-# Project Battle
 This project uses basic natural language processing techniques to perform analysis on customer reviews of two well known video games franchises - Battlefield and Call of Duty. Both are traditional first person shooters (FPS) with online multiplayer game modes. They directly compete for customer attention to keep their servers populated and the game alive, so I assume developers are keen to learn what customers have to say so that they can implement updates that respond to their expectation.
 
 I start by scraping game reviews from metacritic.com; then I proceed to tokenize the data using Spacy and do some exploratory work using wordclouds, network graphs and sentiment analysis. Finally, I use sklearn to "cluster" Battlefield 5 reviews into common topics that supposedly reflect general concerns / opinions of the reviewers.
 
-## 1. Data
+## Data
 Customer reviews scraped from metacritic.com:
 - Battlefield 5 Link to website
 - Battlefield 1 Link to website
 - Call of Duty BlackOps 4 Link to website
 - Call of Duty Infinite Warfare Link to website
 
-## 2. Tool Specs
+## Tool Specs
 - Python: 3.7 version
 - Libraries: requests, beautifulsoup, pandas, matplotplib, networkx, langid, spacy, nltk, scikit-learn
 
