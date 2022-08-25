@@ -50,9 +50,7 @@ Let's check the top 15 words in probability of belonging to each topic (top prob
 - Topic 2 : ['content', 'graphics', 'story', 'great', 'history', 'bf1', 'gameplay', 'don', 'war', 'maps', 'ea', 'buy', 'bad', 'ww2', 'good']
 - Topic 3 : ['weapons', 'lot', 'great', 'far', 've', 'player', 'bf1', 'played', 'maps', 'time', 'fun', 'good', 'feels', 'campaign', 'multiplayer']
 
-Now, we need to think about what each topic seem to be talking about. Topic 0 has words like "bugs" and "ea" in the top - let's assign the label of "Bugs" to it. For topic 1, we see "history", "war", "woman" - people seem to be discussing the historical accuracy of Battlefield 5 - label: "History". Topic 2 is a little bit hard to interpret as the top words are not particularly distinctive - "good", "bad", "buy", "ea" - let the label be "Other". Lastly, topic 3 has words like "multiplayer", "campaign", and "fun"; people must be focusing on the different modes of the game - I label it as "Multiplayer".
-
-Next, we assign the labels to each review. As mentioned earlier, LDA calculates the probability of each review belonging to each topic (ex. 80% topic 0, 10% topic 1, 0% topic 2, 0% topic 3). For simplicity, I choose the topic with highest probability and I get 166 reviews for bugs, 137 for history, 178 for multiplayer and 219 for others.
+Now, we need to think about what each topic seem to be talking about. For example, topic 0 has words like "bugs" and "ea" in the top - let's assign the label of "Bugs" to it. For topic 1, we see "history", "war", "woman" - people seem to be discussing the historical accuracy of Battlefield 5 - label: "History". I label Topic 3 as "Other" and topic 3 as "Multiplayer". I assign the labels to each review by picking the topic that has the highest probability and get 166 reviews for bugs, 137 for history, 178 for multiplayer and 219 for others.
 
 The last step is to check reviews and labels and see if they make sense. For example, this review has 98% probability of belonging to "History":
 
