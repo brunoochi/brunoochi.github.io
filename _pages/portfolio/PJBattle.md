@@ -18,7 +18,7 @@ Customer reviews scraped from metacritic.com:
 - Python: 3.7 version
 - Libraries: requests, beautifulsoup, pandas, matplotplib, networkx, langid, spacy, nltk, scikit-learn
 
-## 3. Procedures
+## Procedures
 **Data Extraction**: Used request library to webscrape and beautifulsoup for data parsing. Extracted four dataframes (one for each game) with "user name", "user score", "date posted", and "review text" columns.
 
 **Tokenization**: After filtering out for English language reviews, I apply Spacy tokenization, adjust the list of stopwords, and visualize the top word count for each game title. A quick glimpse of what has been talked about the games. The list for Battlefield 5, COD Black Ops, and COD Infinite Warfare shows the word "bad" among most quoted words. Also, it seems like zombies are a major part of COD games.
@@ -64,9 +64,9 @@ This got 99% probability of being "Multiplayer".
 
 These results don't look bad at all. But if you screen over the other reviews you will find lots of labels that makes no sense. Also, picking the highest probability labels is very simple, but what should we do for "borderline" reviews? Is 4 a reasonable number of labels, in the first place? It is the work of the analyst to improve results by tweaking the parameters, performing better data processing, or even considering methods other than LDA to estimate topics.
 
-## 4. Conclusion
+## Conclusion
 This project used basic NLP techniques to analyze customer reviews of two major FPS game franchises - Battlefield and Call of Duty. NLP is not a field of expertise that I am very familiar with, so this project was quite challenging (and rewarding).
 
-## 5. Links
+## Links
 - Used this link as reference to build the co-occurrence network: Simple Co-occurrence Network
 - Check the ipynb notebook here
