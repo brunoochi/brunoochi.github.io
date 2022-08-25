@@ -56,12 +56,6 @@ The last step is to check reviews and labels and see if they make sense. For exa
 
 >"Let me get it straight - this game throws any historical accuracy right throw the window. And I'm not even talking about this whole "robotic females" fiasco. I'm talking about "Norwegian heavy water facility sabotage" - the operation which literally prevented Nazi Germany from developing a nuclear weapon . In REAL history Allies lost ~40 brave men in sequence of operations and onlyLet me get it straight - this game throws any historical accuracy right throw the window. And I'm not even talking about this whole "robotic females" fiasco. I'm talking about..."
 
-This got 99% probability of being "Multiplayer".
-
->"Is it fun? Yes, it definitely is I’ve loved every minute of the 25+ hours I’ve put into the multiplayer. The multiplayer is a lot more tactical then Battlefield 1 and a little slower Paced as well, (but not to slow) a lot more destruction and more realistic destruction like pieces of building hanging when you blow a hole into the wall, or being able to shoot through the wall with highIs it fun? Yes, it definitely is I’ve loved every minute of the 25+ hours I’ve put into the multiplayer. The multiplayer is a lot more tactical then Battlefield 1 and a little slower Paced as well, (but not to slow) a lot more destruction and more realistic destruction like pieces of building hanging when you blow a hole into the wall, or being able to shoot through the wall..."
-
-These results don't look bad at all. But if you screen over the other reviews you will find lots of labels that makes no sense. Also, picking the highest probability labels is very simple, but what should we do for "borderline" reviews? Is 4 a reasonable number of labels, in the first place? It is the work of the analyst to improve results by tweaking the parameters, performing better data processing, or even considering methods other than LDA to estimate topics.
-
 ## Conclusion
 This project used basic NLP techniques to analyze customer reviews of two major FPS game franchises - Battlefield and Call of Duty. NLP is not a field of expertise that I am very familiar with, so this project was quite challenging (and rewarding).
 
