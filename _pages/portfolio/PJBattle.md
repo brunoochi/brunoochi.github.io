@@ -40,9 +40,6 @@ I use LDA (Latent Dirilecht Allocation) algorithm to calculate the probability o
 
 Now, we need to think about what each topic seem to be talking about. For example, topic 0 has words like "bugs" and "ea" in the top - let's assign the label of "Bugs" to it. For topic 1, we see "history", "war", "woman" - people seem to be discussing the historical accuracy of Battlefield 5 - label: "History". I label Topic 3 as "Other" and topic 3 as "Multiplayer". I assign the labels to each review by picking the topic that has the highest probability and get 166 reviews for bugs, 137 for history, 178 for multiplayer and 219 for others.
 
-## Conclusion
-This project used basic NLP techniques to analyze customer reviews of two major FPS game franchises - Battlefield and Call of Duty. NLP is not a field of expertise that I am very familiar with, so this project was quite challenging (and rewarding).
-
-## Links
+Links:
 - Used this link as reference to build the co-occurrence network: Simple Co-occurrence Network
 - Check the ipynb notebook here
