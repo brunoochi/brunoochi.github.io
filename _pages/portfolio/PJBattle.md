@@ -1,5 +1,5 @@
 ---
-layout:
+layout: portfolio
 title: Project Battle
 permalink: portfolio/PJBattle/
 ---
