@@ -31,12 +31,12 @@ Games like Battlefield and Call of Duty, get updates from developers periodicall
 
 **Topic Model**: The last task of this project is to run the topic model against Battlefield 5 reviews. The goal is to find and label reviews that seem to share common topics. As discussed in the sentiment analysis section, Battlefield 5 did not have great reviews, so I want to delve deeper into the text data and extract disscussion points raised by customers.
 
-I use LDA (Latent Dirilecht Allocation) algorithm to calculate the probability of words belonging to a topic and the probability of these topics being assigned to reviews. I experiment with four topics and see what kind results I get. Let's check the top 15 words in probability of belonging to each topic (top probabilities appear on the right):
+I use LDA (Latent Dirilecht Allocation) algorithm to calculate the probability of words belonging to a topic and the probability of these topics being assigned to reviews. I experiment with four topics and see what kind results I get. Let's check the top 10 words in probability of belonging to each topic (top probabilities appear on the right):
 
-- 0: ['war', 'historical', 'ussr', 'bf1', 'money', 'playing', 'fun', 'dice', 'buy', 'played', 'people', 'lot', 'bugs', 'ea', 'don']
-- 1: ['german', 'instead', 'played', 'got', 'feminism', 'story', 'time', 'ww2', 'best', 'good', 'women', 'war', 'history', 'ea', 'dice']
-- 2: ['content', 'graphics', 'story', 'great', 'history', 'bf1', 'gameplay', 'don', 'war', 'maps', 'ea', 'buy', 'bad', 'ww2', 'good']
-- 3: ['weapons', 'lot', 'great', 'far', 've', 'player', 'bf1', 'played', 'maps', 'time', 'fun', 'good', 'feels', 'campaign', 'multiplayer']
+- 0: ['playing', 'fun', 'dice', 'buy', 'played', 'people', 'lot', 'bugs', 'ea', 'don']
+- 1: ['story', 'time', 'ww2', 'best', 'good', 'women', 'war', 'history', 'ea', 'dice']
+- 2: ['bf1', 'gameplay', 'don', 'war', 'maps', 'ea', 'buy', 'bad', 'ww2', 'good']
+- 3: ['player', 'bf1', 'played', 'maps', 'time', 'fun', 'good', 'feels', 'campaign', 'multiplayer']
 
 Now, we need to think about what each topic seem to be talking about. For example, topic 0 has words like "bugs" and "ea" in the top - let's assign the label of "Bugs" to it. For topic 1, we see "history", "war", "woman" - people seem to be discussing the historical accuracy of Battlefield 5 - label: "History". I label Topic 3 as "Other" and topic 3 as "Multiplayer". I assign the labels to each review by picking the topic that has the highest probability and get 166 reviews for bugs, 137 for history, 178 for multiplayer and 219 for others.
 
