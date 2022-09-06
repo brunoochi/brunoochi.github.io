@@ -25,7 +25,7 @@ I start by scraping game reviews from metacritic.com; then I proceed to tokenize
 
 We can clearly see that Battlefield 1 was very well received by reviewers - very few red bars compared to its peers. Battlefield 5 had a very bad launch with only a couple of blue bars until it achieved its 70th day after launch. Among the Call of Duty games, Infinite Warfare seems to have received more positive reviews than Black Ops.
 
-Games like Battlefield and Call of Duty, get periodic updates. Not only bug fixes and improvements are made, but also new items, new maps, and even new game modes are added which I thought would dramatically influence reviews over time. Looking the data, this hypothesis does not seem to hold. I would say that, perhaps, the first 20-30 days reviews tend to be more extreme to either positive side or negative side, then reviews get "balanced out" over time.
+Games like Battlefield and Call of Duty, get periodic updates. Not only bug fixes and improvements are made, but also new items, new maps, and even new game modes are added which I thought would dramatically influence reviews over time. The data, however, does not seem to support that claim. It seems like reviews of the first 20-30 sets the overall tone and can be rather extreme. Then, these get "balanced out" over time.
 
 **Topic Model**: The last task of this project is to run the topic model against Battlefield 5 reviews. The goal is to find and label reviews that seem to share common topics. As discussed in the sentiment analysis section, Battlefield 5 did not have great reviews, so I want to delve deeper into the text data and extract disscussion points raised by customers.
 
