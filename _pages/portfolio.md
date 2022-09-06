@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 These are some side projects I have been working on for my learning and development. I enjoy playing around with datasets, libraries, and tools to learn new things and stay sharp for the next challenge.
 
-| Project Name | Description                                                                                                                                                                                                 | Link                             |
+| Project      | Description                                                                                                                                                                                                 | Link                             |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | Battle       | This project uses basic NLP techniques to analyze customer reviews of 4 well known first-person shooting games: Battlefield 5, Battlefield 1, Call of Duty Black Ops 4, and Call of Duty Inifinite Warfare. | [Project](../portfolio/PJBattle) |
 | Matcha       | I test pdfplumber - a Python library that extracts data from PDF - to get the number of applications and the number of test takers of the Japanese Language Proficiency Test.                               | [Project](../portfolio/PJMatcha) |
