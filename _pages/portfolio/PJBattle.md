@@ -11,13 +11,11 @@ I start by scraping game reviews from metacritic.com; then I proceed to tokenize
 
 ![alt text](chart1.png "Chart1")
 
-**Wordcloud**: I perform some experiments to see how results shown in bar charts would look like in a wordcloud. Wordclouds are visually nicer, but it seems like the wordcloud for Battlefield 5 doesn't really reflect what was shown in the bar charts. For instance, the word "ww2" is definitely too small. Further research needs to be done to understand what's the logic behind the wordcloud.
+**Wordcloud**: I perform some experiments to see how results shown in bar charts would look like in a wordcloud. Wordclouds are visually nicer, but it seems like the wordcloud for Battlefield 5 doesn't really reflect what was shown in the bar charts. Further research needs to be done to understand what's the logic behind the wordcloud.
 
 ![alt text](chart1.png "Chart1")
 
-**Co-Occurrence Network**: Co-occurrence network is a graph that shows words as nodes and co-occurrence of words as edges. The thicker the edge, the more often liked words appear together (keep in mind the position or proximity of the nodes have nothing to do with co-occurence).
-
-I picked the top 100 words for Battlefield 5 and built the co-occurrence network with some modifications to to make top co-occuring words to stand out (fun-time, great-people, women-gameplay, etc).
+**Co-Occurrence Network**: Co-occurrence network is a graphical representation of words that tend to appear together. The thicker the lines, the stonger the co-occurrence of linked words (keep in mind the position or proximity of the nodes have nothing to do with co-occurence). This is the co-occurence network of the top 100 words appearing in Battlefield 5 reviews.
 
 ![alt text](chart1.png "Chart1")
 
