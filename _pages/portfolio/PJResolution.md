@@ -13,6 +13,8 @@ After sorting resolutions based on the percentage of yes and no, it was clear th
 
 Before proceeding to the clustering work, I noticed that some countries had a lot of NaNs. These were recent added UN member states such as East Timor (independence in 2002) and South Sudan (independence in 2011). I decided to remove South Sudan as there was not enough voting data for it.
 
+<img src="{{ site.baseurl }}/images/portfolio/pjresolution_contentious.png"" alt>
+
 **K-Means Clustering:** A central issue when running a K-means is the number of clusters K that the analyst needs to input as a paramater of the algorithm. In a case where we don't know how many clusters there will be in the data, it is good practice to input multiple values for K and check how the elbow curve behaves. The best K would be the K where the curve stops diminishing and becomes almost flat. For this particular case, based on my previous knowledge of international affairs (I happened to have been majored in international politics), I expected to find a couple of well defined clusters, so I don't do the elbow curve analysis. Here are the three main clusters I expected to find: one with countries closely aligned with US interests (basically G7 countries), another aligned with Russia/China interests, and another cluster with a mix of countries not particularly aligned to a single superpower.
 
 **Dimensionality Reduction with PCA:** In order to show the clustering results into a 2 dimensional plot, I also perform dimensionality reduction using the PCA algorithm. PCA will look into the variance of each feature, perform linear transformations to the data and produce a n-dimension dataset (2 for this project) that best summarizes the original dataset. The data science literature says that reducing the dimensionality helps to generate better clustering results because it reduces the effect of irrelavant features. I don't have a formal way to test this, but based on my previous knowledge of international affairs, it seems to me that PCA has indeed made results look better for this project. See below the clusters I got after running PCA and the K-means clustering.
@@ -33,6 +35,8 @@ Before proceeding to the clustering work, I noticed that some countries had a lo
 
 Cluster 3 shows liberal democratic economies mostly closed aligned to US interests. Cluster 7 groups in countries more closely aligned to Russia/China and countries of Islam majority. It was interesting to see how Latin American countries were all included in Cluster 6 and Pacific island states mostly included in Cluster 5.
 
-**isualize with Matplotlib:** Last step is to visualize results in a nice 2D scatter plot. Now I can see how cluster 3 (liberal democratic advanced economies) has a lot of plots on top of each other! Seems like the voting patterns for these countries are very well aligned (put in another way, it is very easily predicatable).
+**Visualize with Matplotlib:** Last step is to visualize results in a nice 2D scatter plot. Now I can see how cluster 3 (liberal democratic advanced economies) has a lot of plots on top of each other! Seems like the voting patterns for these countries are very well aligned (put in another way, it is very easily predicatable).
+
+<img src="{{ site.baseurl }}/images/portfolio/pjresolution_notcontentious.png"" alt>
 
 In this project, I played around with the United Nations General Assembly resolution data. I experimented with the PCA algorithm and the K-means clustering and achieved results that were mostly in line with what I expected to find. It was indeed a very interesting exercise to use my data science skills to explore a topic that I used to read a lot about during my undergrad years. A trully interdisciplinary project!
