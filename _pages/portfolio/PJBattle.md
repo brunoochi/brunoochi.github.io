@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project Battle
-permalink: /portfolio/
+permalink: /portfolio/PJBattle/
 ---
 This project uses basic natural language processing techniques to perform analysis on customer reviews of two well known video games franchises - Battlefield and Call of Duty. Both are traditional first person shooters (FPS) with online multiplayer game modes. They directly compete for customer attention to keep their servers populated and the game alive, so I assume developers are keen to learn what customers have to say so that they can implement updates that respond to their expectation.
 
