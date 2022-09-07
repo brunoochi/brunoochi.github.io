@@ -3,11 +3,9 @@ layout: page
 title: Project Resolution
 permalink: /portfolio/PJResolution/
 ---
-In this project, I use a dataset of United Nations General Assembly resolutions to understand voting patterns of member states. The objective of this project is to practice pandas and test scikit-learn's K-means estimator to solve a classification problem.
+In this project, I use a dataset of United Nations General Assembly resolutions to understand voting patterns. For example, do liberal democracies vote together? Is there real coordination among oil producing countries? What about former soviet / socialist countries? After processing the data, I use K-Means clustering to see if I these well known political alliances appear in data and apply dimensionality reduction to get a nice scatter plot.
 
-**Data Understanding:** the data covers United Nations General Assembly resolutions issued from 1946-2020 (about 5700 resolutions) and the vote of each member state is recorded in different rows which makes the dataset quite large (more than 1M rows). A more detailed discussion of how the data is structured can be read in the ipynb notebook.
-
-**Data Processing:** In order to better understand the voting patterns of the UN member states, I made the decision to leave out resolutions that were too old (before 2000) which reduces the size of the data to about 380,000 rows. I also realized that that were many resolutions that were just not "contentious" enough. Say, for example, that a voting session was held to discuss the "right to food" or the "right to clean water". In resolutions like these, no particular issue was on dispute and the voting pattern were extremely skewed toward "yes".
+**Data Processing:** The data covers resolutions passed from 1946-2020 (about 5700 resolutions) and the vote of each member state is recorded in different rows which makes the dataset quite large (more than 1M rows). I decided to remove resolutions that were too old (before 2000) and also resolutions that I thought were not "contentious" enough. Say, for example, that a voting session was held to discuss the "right to food" or the "right to clean water". These are more like symbolic resolutions and were extremely skewed toward the "yes" vote.
 
 After sorting resolutions based on the percentage of yes and no, it was clear that resolutions with higher percentage of "no" were the divisive ones that had the potential to shed light on the diplomatic alliances that this project was interested in. The image below shows the top 50 resolutions with large percentage "no" and below the top 50 resolutions with high percentage of "yes".
 
