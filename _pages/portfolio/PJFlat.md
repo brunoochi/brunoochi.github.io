@@ -11,7 +11,7 @@ This was a small data extraction, processing, and visualization work I did over 
 
 **Geoprocessing:** I realized that the districts scraped from chintai.com were not exactly the official district boundaries as defined by the Japanese government. Official boundaries were much smaller, so I had to group in ("Dissolve" in GIS jargon) some of these districts based on a less granular criteria to be able to merge it with the rent data. See an illustration of what I mean below:
 
-<img src="tokyo_breakdown.jpg" alt>
+<img src="tokyo_breakdown.JPG" alt>
 
 **Web Mapping:** The final step is to merge the geoprocessed data with the rent data and build a choropleth map using the folium library in Python. The map allows the user to choose from 1K and 1LDK flat types. I could have set it show other types, but the map was getting quite heavy and there were lots of missing data for flats bigger than 1LDK. The map works well and highlights with clarity areas of Tokyo where rents are high / low. Check the web map here.
 
