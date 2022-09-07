@@ -17,7 +17,7 @@ I start by scraping game reviews from metacritic.com; then I proceed to tokenize
 
 **Co-Occurrence Network**: Co-occurrence network is a graphical representation of words that tend to appear together. The thicker the lines, the stonger the co-occurrence of linked words (keep in mind the position or proximity of the nodes have nothing to do with co-occurence). This is the co-occurence network of the top 100 words appearing in Battlefield 5 reviews.
 
-![Co-Occurrence Network](./image/pj_battle_network_highlighted.jpg "Co-Occurrence Network")
+![Co-Occurrence Network](pj_battle_network_highlighted.jpg "Co-Occurrence Network")
 
 **Sentiment Analysis**: In this section, I use the NLTK library to score reviews and measure overall sentiment. The daily averages scores were plotted in the chart below. Scores of 1 are the most positive and -1 the most negative.
 
