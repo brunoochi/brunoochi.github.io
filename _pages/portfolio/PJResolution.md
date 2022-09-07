@@ -14,6 +14,7 @@ After sorting resolutions based on the percentage of yes and no, it was clear th
 Before proceeding to the clustering work, I noticed that some countries had a lot of NaNs. These were recent added UN member states such as East Timor (independence in 2002) and South Sudan (independence in 2011). I decided to remove South Sudan as there was not enough voting data for it.
 
 <img src="{{ site.baseurl }}/images/portfolio/pjresolution_contentious.png" alt>
+<img src="{{ site.baseurl }}/images/portfolio/pjresolution_notcontentious.png" alt>
 
 **K-Means Clustering:** A central issue when running a K-means is the number of clusters K that the analyst needs to input as a paramater of the algorithm. In a case where we don't know how many clusters there will be in the data, it is good practice to input multiple values for K and check how the elbow curve behaves. The best K would be the K where the curve stops diminishing and becomes almost flat. For this particular case, based on my previous knowledge of international affairs (I happened to have been majored in international politics), I expected to find a couple of well defined clusters, so I don't do the elbow curve analysis. Here are the three main clusters I expected to find: one with countries closely aligned with US interests (basically G7 countries), another aligned with Russia/China interests, and another cluster with a mix of countries not particularly aligned to a single superpower.
 
