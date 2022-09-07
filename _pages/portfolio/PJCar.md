@@ -11,16 +11,12 @@ The goal of this project was practice a couple of common machine learning techni
 
 **Results**: the distribution of RMSEs for each model shows that the random forest model created less errors on average.
 
-Avg Decision Tree: 2.3709090909090906
-Avg Random Forest: 1.7690012285012284
-Avg Linear Regression: 3.3110580652130244
+- Avg Decision Tree: 2.3709090909090906
+- Avg Random Forest: 1.7690012285012284
+- Avg Linear Regression: 3.3110580652130244
 
 **Predict New Prices:** the package downloaded from Kaggle had a separate dataset with unknown used car prices that could be used for prediction. I run the same models against the new dataset and store all predictions in a dataframe. Plotting all three sets of predictios and with the known prices from the training dataset I get a visualization like this:
 
 <img src="{{ site.baseurl }}/images/portfolio/pjcar_finalplot.png" alt>
 
-This was a very simple project to refresh and practice common machine learning models. It is usually expected that random forest performs better than decision tree and linear regression and indeed we confirmed that by testing those against the used car dataset.
-
-I used the leave-one-out cross validation method. I could have used a gridsearchCV algorithm to perform cross validation and hyperparameter tuning to get less errors without overfitting.
-
-In Part 2 of the Project Car, I will rerun a linear regression model for inference purposes. In other words, I will deep dive into the statistical logic of getting good model coefficients to understand and interpret how each feature is correlated with the target.
+This was a very simple project to refresh and practice common machine learning models. It is usually expected that random forest performs better than decision tree and linear regression and indeed we confirmed that by testing those against the used car dataset. I used the leave-one-out cross validation method. I could have used a gridsearchCV algorithm to perform cross validation and hyperparameter tuning to get less errors without overfitting.
