@@ -9,6 +9,8 @@ This project extractes the number of test takers of the JLPT from a series of PD
 
 **Data Extraction:** The data covers December examinations from 2010 to 2019 and was originally stored into several PDFs. I set a for loop that and use the pdfplumber library to open each of the PDFs and grab the exact table I needed. After some trial and error, I managed to get the data within the red frame shown below:
 
+<img src="{{ site.baseurl }}/images/portfolio/pjmatcha_pdfsample.jpg" alt>
+
 **Data Processing and Geocoding**: Data extracted is stored into several lists. I write some lines of code to store those into a dataframe in a format that is easier for analysis. After that, I add some columns with growth rates and conduct geocoding using the arcgis API to get the latitude and longitude of the test centers. As for geocoding, some cities had ambiguous names; for example, there are two locations called "Kochi" in the world - one in Japan and another in India. I visualized the geocoded cities into a map and wrote additional code to account for the cases I was able to spot.
 
 **Visualize with Matplotlib**: Before importing the data into a Tableau file, I built some quick visualizations in matplotlib to get an idea of what kind of data I was working with. For example, the chart below shows that N5 test takers (beginner level) are consistently growing since 2012. In other words, there is a demand for Japanese education.
