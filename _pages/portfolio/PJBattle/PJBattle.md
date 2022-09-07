@@ -9,11 +9,11 @@ I start by scraping game reviews from metacritic.com; then I proceed to tokenize
 
 **Tokenization**: After filtering out for English language reviews, I apply Spacy tokenization, adjust the list of stopwords, and visualize the top word count for each game title. The list for Battlefield 5, COD Black Ops, and COD Infinite Warfare shows the word "bad" among the most quoted words.
 
-![alt text](chart1.png "Chart1")
+<img src="{{ site.baseurl }}/images/portfolio/pjbattle_wordcountbar.jpg" alt>
 
 **Wordcloud**: I perform some experiments to see how results shown in bar charts would look like in a wordcloud. Wordclouds are visually nicer, but it seems like the wordcloud for Battlefield 5 doesn't really reflect what was shown in the bar charts. Further research needs to be done to understand what's the logic behind the wordcloud.
 
-![alt text](chart1.png "Chart1")
+<img src="{{ site.baseurl }}/images/portfolio/pj_battle_wordcloud.jpg" alt>
 
 **Co-Occurrence Network**: Co-occurrence network is a graphical representation of words that tend to appear together. The thicker the lines, the stonger the co-occurrence of linked words (keep in mind the position or proximity of the nodes have nothing to do with co-occurence). This is the co-occurence network of the top 100 words appearing in Battlefield 5 reviews.
 
@@ -21,7 +21,7 @@ I start by scraping game reviews from metacritic.com; then I proceed to tokenize
 
 **Sentiment Analysis**: In this section, I use the NLTK library to score reviews and measure overall sentiment. The daily averages scores were plotted in the chart below. Scores of 1 are the most positive and -1 the most negative.
 
-![alt text](chart1.png "Chart1")
+<img src="{{ site.baseurl }}/images/portfolio/pj_battle_sentiment.jpg" alt>
 
 We can clearly see that Battlefield 1 was very well received by reviewers - very few red bars compared to its peers. Battlefield 5 had a very bad launch with only a couple of blue bars until it achieved its 70th day after launch. Among the Call of Duty games, Infinite Warfare seems to have received more positive reviews than Black Ops.
 
