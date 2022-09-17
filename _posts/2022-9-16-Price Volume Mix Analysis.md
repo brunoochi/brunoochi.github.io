@@ -6,7 +6,7 @@ categories: [Analysis]
 PVM Analysis (as I like to refer to) breaks down sales by its drivers - price and volume - and measures the effect that each had in changing sales from period X to period Y. Let's say that we are in August 2022 and a restaurant wants to understand why its sales declined compared to August 2021. One way to go about it would be analyze if customers are spending on cheaper meals or if customers are not coming anymore. In other words, sales = average spending per customer x number of customers 
 
 PVM analysis can be understood geometrically, like this:
-<img src="{{ site.baseurl }}/images/blog/20220916_arearepresentation.jpg" alt="Area Representation of PVM Analysis" width="80%" height="80%">
+<img src="{{ site.baseurl }}/images/blog/20220916_arearepresentation.jpg" alt="Area Representation of PVM Analysis" width="60%" height="60%">
 
 The difference between areas of Price 2 x Volume 2 and Price 1 x Volume 1 is the difference in sales from period 1 and period 2. The yellow squares show the changes that drivers had toward overall sales. The "M" in PVM stands for "Mix". I believe that most versions of the PVM Analysis like to add a "Mix" effect that represents the portion of change in sales that are not solely exaplained by prices or volume. For simplicity, I just assume that the area occupied by "Mix" belongs to price. You could assign it to volume; it's just an assumption.
 
