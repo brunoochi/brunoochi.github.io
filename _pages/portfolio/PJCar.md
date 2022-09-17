@@ -21,4 +21,4 @@ The goal of this project was practice a couple of common machine learning techni
 
 This was a very simple project to refresh and practice common machine learning models. It is usually expected that random forest performs better than decision tree and linear regression and indeed we confirmed that by testing those against the used car dataset. I used the leave-one-out cross validation method. I could have used a gridsearchCV algorithm to perform cross validation and hyperparameter tuning to get less errors without overfitting.
 
-Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Car/Project_Car_Part1.ipynb)
+- Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Car/Project_Car_Part1.ipynb)

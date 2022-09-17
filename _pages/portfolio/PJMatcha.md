@@ -29,5 +29,5 @@ Looking at the historical trends of the top cities in number of N5 test takers, 
 
 An interesting topic for further analysis would be to try to estimate the loss in the number of test takers during the years of 2020 and 2021 - period affected by the restrictions imposed by the COVID-19 pandemic. One method would be to conduct a time series or panel analysis and compare forecasted results with actual figures.
 
-Check Tableau output [here](https://public.tableau.com/views/JLPTAnalysis/ProjectMatcha?:language=en-GB&:display_count=n&:origin=viz_share_link)
-Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Matcha/PJ_Matcha.ipynb)
+- Check Tableau output [here](https://public.tableau.com/views/JLPTAnalysis/ProjectMatcha?:language=en-GB&:display_count=n&:origin=viz_share_link)
+- Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Matcha/PJ_Matcha.ipynb)

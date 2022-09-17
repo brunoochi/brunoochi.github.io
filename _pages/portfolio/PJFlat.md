@@ -21,4 +21,5 @@ It would be nice to see a time series version of this map showing how areas that
 
 This project helped me refresh basic webscraping techniques and work with folium - a Python library for web mapping. I usually build maps using Tableau. I also use QGIS when I need more advanced maps. In this project, I was able to explore folium and get a better understanding of it.
 
-Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Flat/pj_flat_avgrentprices.ipynb)
+- Check the map [here](chintai_tokyo.html)
+- Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Flat/pj_flat_avgrentprices.ipynb)
