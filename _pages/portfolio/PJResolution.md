@@ -39,3 +39,6 @@ Cluster 3 shows liberal democratic economies mostly closed aligned to US interes
 <img src="{{ site.baseurl }}/images/portfolio/pjresolution_vizplot.png" alt>
 
 In this project, I played around with the United Nations General Assembly resolution data. I experimented with the PCA algorithm and the K-means clustering and achieved results that were mostly in line with what I expected to find. It was indeed a very interesting exercise to use my data science skills to explore a topic that I used to read a lot about during my undergrad years. A trully interdisciplinary project!
+
+Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Resolution/pj_resolution_analysis.ipynb)
+
