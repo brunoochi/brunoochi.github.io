@@ -20,8 +20,8 @@ So, I modified the PVM analysis a little bit to accommodate a situation in which
 
 Desafinado wants to understand why some locations do not perform as well as others. Should it encourage more membership? Or should it start a campaign to get inactive users back? Or should they try to get customers to buy higher value snacks and drinks? For this case, we need to imagine the volume of a cube instead of the area of a square.
 
-So, I built a dummy data for our fake company and proceeded to calculate the difference in volume from one period to the other. I think there are a couple of different ways that we could calculate it. Here is the notebook if you are interested in the calculation details.
+So, I built a dummy data for our fake company and proceeded to calculate the difference in volume from one period to the other. I think there are a couple of different ways that we could calculate it. Here is the [notebook](https://github.com/brunoochi/pvm_analysis/blob/main/build_pvmdata.ipynb) if you are interested in the calculation details.
 
-I uploaded the results of this three parameter version of the PVM analysis in Tableau Public. Here's an image sample of the output.
+I uploaded the results of this three parameter version of the PVM analysis in [Tableau Public](https://public.tableau.com/views/PVMAnalysis/PVMAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link). Here's an image sample of the output.
 
 <img src="{{ site.baseurl }}/images/blog/20220916_dashbordview.jpg" alt="PVM Analysis" width="80%" height="80%">
