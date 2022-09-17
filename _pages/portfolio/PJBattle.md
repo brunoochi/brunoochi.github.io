@@ -39,5 +39,5 @@ I use LDA (Latent Dirilecht Allocation) algorithm to calculate the probability o
 Now, we need to think about what each topic seem to be talking about. For example, topic 0 has words like "bugs" and "ea" in the top - let's assign the label of "Bugs" to it. For topic 1, we see "history", "war", "woman" - people seem to be discussing the historical accuracy of Battlefield 5 - label: "History". I label Topic 3 as "Other" and topic 3 as "Multiplayer". The final step is to assign these labels to each individual review by choosing the highest probability topic. As a result, I get 166 reviews for bugs, 137 for history, 178 for multiplayer and 219 for others. 
 
 **References**
-- Used this link as reference to build the co-occurrence network: Simple Co-occurrence Network
-- Check the ipynb notebook here
+- Used this link as reference to build the co-occurrence network: [Simple Co-occurrence Network](https://www.kaggle.com/code/itoeiji/simple-co-occurrence-network" target="_blank">Simple Co-occurrence Network)
+- Check the ipynb notebook [here](https://nbviewer.org/github/brunoochi/my_data_science_notes/blob/main/PJ_Battle/PJ_Battle.ipynb)
