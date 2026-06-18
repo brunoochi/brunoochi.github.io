@@ -4,13 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am a data analytics professional working in the consulting industry. My mission is to help companies use their data to discover value and make good business decisions. I have worked with major market players from the automobile, apparel, eldercare, and construction industries in Japan.
+I’m a data analytics consultant with over six years of experience designing and delivering AI‑driven solutions. In my current role, I lead cross‑functional teams to modernize M&A advisory workflows through scalable, high‑impact applications. I work closely with leadership and end users to translate operational challenges into actionable product requirements, guide data scientists in developing prototype solutions, and validate assumptions through hands‑on workshops. My responsibilities span solution design, data analysis, stakeholder communication, and driving adoption across the organization.
 
-My main tools of work are Python, Tableau and Alteryx, but I am also comfortable with Power BI, QGIS, and SQL scripting. Here's a list of recent projects I have been active on:
-
-- Process and visualize contract data for a lease company
-- Build financial dashboard for an eldercare provider
-- Analyze drivers of revenue and recommend candidate areas for store network expansion
-- Aside from client work, I also lead training sessions and spread basic data skills to new hires.
-
-I was born and raised in Sao Paulo, Brazil and I currently live in Tokyo, Japan. I am proficient in Portuguese, English and Japanese. Check my [resume](#) for details.
+Previously, I held a client‑facing analytics role where I used Python, Alteryx, Tableau, and Power BI to perform complex, transaction‑level analyses in fast‑paced deal environments. I partnered with clients across retail, healthcare, mobility, and chemical sectors to deliver data‑driven recommendations on SKU rationalization, pricing optimization, store network expansion, and workforce performance. Fluent in Japanese, English, and Portuguese, I collaborate effectively with global teams and bridge the gap between technical execution and business strategy.
